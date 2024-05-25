@@ -1,0 +1,344 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "poppins",sans-serif;
+    overflow-x: hidden;
+}
+
+/* navbar section */
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+.navbar-brand{
+    font-size: 31.93px;
+    font-weight: 700 !important;
+    font-family: "poppins", sans-serif;
+    line-height: 54.28px;
+}
+
+
+.navbar-nav .nav-link{
+    font-family: "poppins",sans-serif;
+    font-size: 16px;
+    margin-right: 50px;
+    font-weight: 400 !important;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link:hover{
+    font-weight: 700 !important;
+}
+
+.btn1{
+    font-family: "poppins",sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500 !important;
+    background-color: #2C3878;
+    color: white !important;
+    padding: 14px 32px;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        padding: 0 10px;
+    }
+    .navbar-brand{
+        font-size: 20px;
+        font-weight: 600 !important;
+        padding: 5px 0;
+    }
+    .navbar-toggler{
+        font-size: 20px;
+        background: transparent !important;
+        border: none;
+        font-weight: 600 !important;
+    }
+    .btn1{
+        font-size: 12px;
+        font-weight: 500;
+        padding: 10px 14px;
+        width: 100%;
+    }
+}
+
+/* nav section end */
+
+/* hero section start */
+.Minimalist{
+    margin-top: 78px;
+    font-size: 56px;
+    font-weight: 700 !important;
+}
+@media screen and(max-width:768px) {
+    .Minimalist{
+        font-size: 20px !important;
+        font-weight: 500 !important;
+    }
+}
+
+.min-text{
+    font-family: "poppins",sans-serif;
+    margin-top: 87px;
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 400 !important;
+}
+
+.hero img{
+    width: 100% !important;
+    height: 513px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* hero section end */
+
+/* design section start */
+.project{
+    font-size: 24px;
+    font-family: 'poppins',sans-serif;
+    line-height: 33.6px;
+    font-weight: 600 !important;
+    margin-top: 40px;
+}
+
+.project-word{
+    font-size: 18px;
+    font-weight: 400 !important;
+    margin-bottom: 40px !important;
+    color: #9C9C9C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.date-design{
+    font-size: 15px;
+    color: #9C9C9C;
+}
+/* design section end */
+
+/* image section start */
+.images{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.images img{
+    width: 100%;
+}
+/* image section end */
+
+/* discuss section start */
+.discuss{
+    background-color: #2C3878;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.discuss-statement{
+    font-size: 36px;
+    line-height: 61.2px;
+    font-weight: 600!;
+    margin-bottom: 20px;
+    height: 20vh;
+    padding: 7% 0px;
+    font-family: 'poppins', sans-serif;
+}
+
+.contact-statement{
+    line-height: 28.8px;
+    font-size: 18px;
+    font-weight: 400 !important;
+    font-family: 'poppins', sans-serif;
+    margin-top: 40px;
+}
+
+.btn2{
+    background-color: white !important;
+    padding: 14px 32px;
+    color: black !important;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500 !important;
+    text-decoration: none;
+}
+
+.btn2:hover{
+    font-weight: 800 !important;
+}
+
+@media screen and(max-width: 768px){
+    .discuss-statement{
+        font-size: 200px;
+        font-family: 'poppins', sans-serif;
+    } 
+    .btn2{
+        padding: 8px 20px;
+        font-size: 12px;
+        font-weight: 500 !important;
+    }
+}
+
+/* discuss section end */
+
+/* footer section start */
+.footer-head{
+    font-size: 31.93px;
+    line-height: 54.28px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 700 !important;
+}
+
+.form-label{
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 400 !important;
+    font-family: 'poppins',sans-serif;
+}
+
+.label-inputt{
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 400 !important;
+    font-family: 'poppins',sans-serif; 
+}
+
+
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 440px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: black !important;
+    outline: none;
+    
+}
+@media screen and (max-width: 768px) {
+    .form-control{width: 80%;}
+}
+
+.input-with-image{
+    display: flex;
+    align-items: center;
+
+}
+
+.input-with-image img{
+    margin-right: -40px !important;
+    font-size: 2px;
+    left: 20px;
+}
+
+.input-with-image.arrow-upward{
+    width: 5px;
+}
+
+/* footer section */
+.footer{
+    margin-bottom: 20px;
+}
+.social-section{
+    text-align: center;
+    padding-right: 10px;
+}
+
+.footer-follow{
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400 !important;
+    font-family: 'poppins',sans-serif;
+}
+
+.icons{
+    padding-left: 20px;
+   
+}
+
+.fa-facebook{
+    background-color: gainsboro;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3 ease;
+}
+
+.fa-facebook:hover{
+    transform: translateX(10px) scale(1.1)
+}
+
+.fa-instagram{
+    background-color: gainsboro;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa-tiktok{
+    background-color: gainsboro;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa-youtube{
+    background-color: gainsboro;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.arrow-img{
+  
+}
+
+
+@media screen and(max-width: 768px){
+  .social-section{
+    text-align: center;
+  }
+  .form-control{
+    width: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+ 
